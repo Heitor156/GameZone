@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" color="#38bdf8">
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#38bdf8" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#0b1226"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="480" fill="#0b1226"/>
+  <rect width="900" height="480" fill="url(#glow)"/>
+  <rect width="900" height="480" fill="url(#grid)"/>
+  <g fill="none" stroke="currentColor" opacity=".32">
+    <circle cx="450" cy="240" r="184" stroke-dasharray="3 11"/>
+    <circle cx="450" cy="240" r="160"/>
+    <path d="M48 115V48h67m670 0h67v67m0 250v67h-67m-670 0H48v-67"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"><path d="M298 152h286v156a22 22 0 0 1-22 22H320a22 22 0 0 1-22-22z"/><path d="M584 203h43v103a24 24 0 0 1-24 24h-43M327 185h226M327 292h226M446 222h107m-107 32h86"/><rect x="327" y="211" width="89" height="53" rx="4" fill="currentColor" fill-opacity=".18"/><path d="m341 250 19-20 14 12 13-10 15 18"/></g>
+</svg>
